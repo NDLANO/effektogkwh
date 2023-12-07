@@ -56,7 +56,7 @@ function calculate(){
 		inputs[3].value = inputs[0].value + " A x " + inputs[1].value + " V = " + inputs[2].value + " W";
 
 	if (selection.options[selection.selectedIndex].value === "Energi" && inputs[2].value !== "NaN"){
-		inputs[4].value = Math.round(inputs[2].value * inputs[5].value) / 1e4;
+		inputs[4].value = Math.round(inputs[2].value * inputs[5].value) / 1e3;
 	}
 
 	if (inputs[4].value === "NaN") 
