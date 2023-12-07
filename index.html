@@ -1,0 +1,35 @@
+<!-- Laget av Vegard Seim Karstang, Bamble Videregående skole -->
+<!-- Creative Commons - BY SA -->
+<!doctype html>
+<html lang="nb">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Vegard Seim Karstang" />
+	<title>Effekt og kWh</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="kWh.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-H7W6XF0WSR"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-H7W6XF0WSR');
+	</script>
+</head>
+<body>
+	<div id="effekt">
+		<canvas id="canvas" height="300" width="400">Browseren din støtter ikke Canvas-taggen i HTML5</canvas>
+		<input type="text" id="ampere" class="inputBox" />
+		<input type="text" id="volt" class="inputBox" />
+		<input type="text" id="watt" class="outputBox" />
+		<input type="text" id="likning" class="outputBox"/>
+		<input type="text" id="kWh" class="outputBox" />
+		<input type="text" id="timer" class="inputBox" />
+		<select id="select">
+			<option value="Effekt">Effekt</option>
+			<option value="Energi">Energi</option>
+		</select>
+	</div>
+</body>
+</html>

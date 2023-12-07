@@ -1,0 +1,91 @@
+/*
+Laget av Vegard Seim Karstang, Bamble Videregående skole
+Creative Commons - BY SA
+*/
+#effekt {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 400px;
+	height: 350px;
+}
+
+#effekt input {
+	font-family: "Arial", Sans-serif;
+	font-size: 0.95em;
+	font-weight: bold;
+	text-align: center;
+}
+
+#effekt input:focus{
+	border-color: blue;
+	border-width: 2px;
+}
+
+.inputBox {
+	position: absolute;
+	border-color: black;
+	border-style: solid;
+	border-radius: 5px 5px;
+	width: 75px;
+}
+
+.outputBox {
+	position: absolute;
+	border-style: dotted;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 2px 2px;
+	background-color: #e3e3e3;
+}
+
+#ampere {
+	top: 40px;
+	left: 30px;
+	width: 75px;
+}
+
+#volt {
+	top: 150px;
+	left: 30px;
+	width: 75px;
+}
+
+#watt {
+	top: 150px;
+	left: 305px;
+	width: 75px;
+}
+
+#likning {
+	position: absolute;
+	top: 310px;
+	left: 50px;
+	width: 320px;
+}
+
+#effekt canvas {
+	position: absolute;
+	left: 1px;
+	top: 1px;
+}
+
+#select {
+	position: absolute;
+	left: 310px;
+	top: 100px;
+	width: 75px;
+}
+
+#kWh {
+	top: 200px;
+	left: 305px;
+	width: 75px;
+	visibility: hidden;
+}
+
+#timer {
+	top: 250px;
+	left: 305px;
+	visibility: hidden;
+}
